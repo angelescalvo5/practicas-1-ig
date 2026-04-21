@@ -1,0 +1,12 @@
+body{background-color:mediumslateblue;}
+/* indicadores de etiquetas*/
+h1{color:midnightblue;
+	background-color: lightblue;
+text-align: center;
+font-weight:bold; }
+h3{color:midnightblue;
+text-align: center;}
+/* indicadores de identificador*/
+#verde  {
+  text-align: center;
+}

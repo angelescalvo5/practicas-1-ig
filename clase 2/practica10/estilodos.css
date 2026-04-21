@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+/* TITULO PRINCIPAL */
+h1{
+	color: hotpink;
+	background-color: purple;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* SUBTITULOS */
+h3{
+	color: cyan;
+	text-align: center;
+}
+
+/* PARRAFOS */
+p{
+	text-align: center;
+	color: lightpink;
+}
+
+/* MENU */
+#verde{
+	text-align: center;
+	background-color: darkviolet;
+}
+
+/* LINKS */
+a{
+	color: cyan;
+}
+
+/* LISTAS */
+ul{
+	text-align: center;
+}
+/*Declaración de uso de IA - Chat pgt-
+la ia centro el texto del menu y cambio los colores, lo unico q agrego fue el color del fondo del menu */
