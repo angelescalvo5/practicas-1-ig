@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+/* TITULO */
+h1{
+	color: red;
+	background-color: black;
+}
+
+/* SUBTITULOS */
+h2, h3{
+	color: orange;
+}
+
+/* PARRAFOS */
+p{
+	color: lightgray;
+}
+
+/* MENU */
+ul{
+	background-color: darkred;
+}
+
+/* LINKS */
+a{
+	color: white;
+}
+
+/* DESTACADO */
+#color{
+	color: red;
+}
+/*DECLARACION USO DE IA hizo este solo archivo como "cambio", 
+ademas del css me corrigio equivocaciones 
+morfologicas del codigo. según Chat gpt Te falta:
+Orden semántico
+Limpieza de código
+Mejor uso de etiquetas*/
