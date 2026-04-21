@@ -1,0 +1,23 @@
+nav{
+background-color:rosybrown ;
+text-align: center;
+}
+body{
+	background-color: gray;
+}
+footer{
+	background-color: rosybrown;
+	text-align: center;
+}
+#color{
+	background-color: palevioletred;
+	text-align: center;
+}
+.img-centro{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 20 px;
+	max-width: 100%;
+	height:auto;
+}
