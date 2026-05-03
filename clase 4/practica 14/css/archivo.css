@@ -1,58 +1,61 @@
-/*Link pseudoclases*/
-a:link{
- color:red;
-}
-a:visited{
-color:green;
+/*DECLARACION DE IA
+CON AYUDA DE CHATGOT LE PEDI Q 
+ARME UN ARCHIVO CSS CON IDENTIDAD 
+VISUAL MINIMALISTA USANDO DE BASE EL CELESTE
+*/
+body{
+
+	background-color:#dff6ff;
+	color:#1b3c59;
+	font-family: "BJCree", sans-serif;
+	text-align:center;
 }
 
+/* HEADER */
+header{
+	background-color:#b8e8fc;
+}
+
+/* TITULOS */
 h1{
-	text-align: center;
-	color:black;
-	font-family: helveltica,monospace,sans-serif,times serif;
-	font-size: 2.5em;
+	color:#256d85;
+	background-color:#b8e8fc;
 }
-#menu{
-	text-align: center;
-}
-/*color para la primera letra de los p*/
-p::first-letter{
-color:black;
-font-size: 50px;
-}
-nav{
-	background-color: lightblue;
-}
-body {
-	background-color: steelblue;
-}
-p{
-	color:black;
-}
+
 h3{
-	color:darkslategray;
-	text-decoration: underline;
+	color:#3f72af;
 }
-/*aside al costado*/
-.contenedor{
-	display:flex;
-	flex-direction: row;
-	width: 100%;
-	gap: 20px;
+
+/* MENU */
+#menu{
+	background-color:#89c4e1;
 }
-main{
-flex:3;
-min-width: 0;
+
+ul{
+	list-style:none;
 }
+
+/* LINKS */
+a{
+	color:#1b4965;
+}
+
+/* CONTENIDO */
+article{
+	background-color:#f4fbff;
+}
+
 aside{
-	flex:1;
-	background-color: lightblue;
-	padding: 15px;
-	border-radius: 5px;
+	background-color:#c9f0ff;
 }
+
+/* FOOTER */
 footer{
-	display:block;
-	background-color:silver;
-	border-style: solid;
-	border-top-width: 15px;
+	background-color:#89c4e1;
+	color:#1b3c59;
+}
+
+/* IMAGENES */
+img{
+	background-color:white;
 }
