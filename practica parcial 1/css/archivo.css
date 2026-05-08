@@ -1,15 +1,30 @@
 header{
 	background-color: teal;
+	border:5px solid lightblue;
 }
-h1,h4, nav{
+h1,h4,h5,nav{
 	text-align: center;
+  font-family: "BJCree", serif;
+  font-weight: 400;
+}
+h1{
+	font-size: 40px;
+}
+h4{
+	font-size: 25px;
+}
+q{
+	background-color: white;
+	color: navy;
+	font-size: 19px;
 }
 body {
 background-image: url(../img/fondo.png);
 	}
 footer {
-	background-color: midnightblue;
+	background-color: teal;
 	display: block;
+	border:5px solid lightblue;
 }
 body{
 	display: flex;
@@ -27,7 +42,8 @@ main{
 	border-radius:10px ;
 }
 p{
-	color:white;
+	color:#160f3b;
+	font-size: 18px;
 }
 	/*aside al costado*/
 aside{
@@ -45,7 +61,23 @@ margin: 10px;
 }
 ul{
 list-style:none ;
+font-size: 23px;
 }
 ol{
 list-style:square ;
+color: navy;
+font-size: 20px;
+}
+a:visited{
+color:navy;
+}
+a.caca :active{
+color:red;
+}
+p::first-letter{
+	font-size: 30px;
+}
+h5{
+	color:black;
+	font-size: 19px;
 }
