@@ -1,0 +1,51 @@
+header{
+	background-color: teal;
+}
+h1,h4, nav{
+	text-align: center;
+}
+body {
+background-image: url(../img/fondo.png);
+	}
+footer {
+	background-color: midnightblue;
+	display: block;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+main{
+	background-color: lightblue;
+	flex:3;
+	min-width: 0;
+	width: 300px;
+	padding: 20px;
+	border:5px solid #0b6a73 ;
+	margin: 10px;
+	border-radius:10px ;
+}
+p{
+	color:white;
+}
+	/*aside al costado*/
+aside{
+	flex:1;
+	background-color: lightblue;
+	padding: 20px;
+	border: 5px solid #0b6a73 ;
+margin: 10px;
+}
+.contenedor{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	gap: 20px;
+}
+ul{
+list-style:none ;
+}
+ol{
+list-style:square ;
+}
