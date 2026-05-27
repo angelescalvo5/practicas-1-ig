@@ -1,0 +1,22 @@
+body{
+
+	background-color:#dff6ff;
+	color:#1b3c59;
+	font-family: "BJCree", sans-serif;
+	text-align:center;
+}
+
+/* HEADER */
+header{
+	background-color:#b8e8fc;
+}
+
+/* TITULOS */
+h1{
+	color:#256d85;
+	background-color:#b8e8fc;
+}
+
+h3{
+	color:#3f72af;
+}
