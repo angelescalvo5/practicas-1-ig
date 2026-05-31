@@ -1,12 +1,16 @@
 //variables de nombre y apellido
-let miNombre ="Angeles"
+let miNombre ="caca"
 
-let miApellido="Calvo"
+let miApellido="pa"
 
-let nombreCompleto={
- nombre:"miNombre",
- apellido:"miApellido"
-}
-let miEdad ="18"
+let nombreCompleto =miNombre + miApellido;
 
-const miCufa="UNA Artes Multimediales"
+let miEdad = "adictiva";
+
+const miCufa="pupu"
+
+console.log(miNombre)
+console.log(miApellido)
+console.log(nombreCompleto)
+console.log(miEdad)
+console.log(miCufa)
